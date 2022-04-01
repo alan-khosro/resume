@@ -3,12 +3,25 @@
 
 <!DOCTYPE html>
 <html>
+<head>
+</head>
+
 <body>
-
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
 
 </body>
 </html>
 
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script type="module">
+	const url = window.location.href
+	const [first, second] = url.split('?')
+	console.log(first, second)
+	const text = await fetch(second)
+		.then(r => r.text())
+	console.log(marked.parse(text))
+	document.body.innerHTML = marked.parse(text)
+
+
+
+</script>

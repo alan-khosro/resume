@@ -1,9 +1,10 @@
 
 
 # Ali Khosro
+
 > Data Science Manager and Cloud Solution Architect
 
-<img src="./profile3.jpg" style="width: 20%; float: left; margin-right: 1em;"> 
+<img src="./resume/profile3.jpg" style="width: 20%; float: left; margin-right: 1em;"> 
 
 Ali has been integral in the development and delivery of data-driven solutions in the software, financial, and telecommunication industry. He is proficient in Cloud Solution Architecture, Data Science, Machine Learning Applications, MLOps, Data Engineering, and Web Development. Ali enjoys helping clients to deploy cloud solutions and to redesign their data management systems. He has designed and developed end to end transactional and analytical solutions on major cloud platforms.
 
@@ -15,6 +16,7 @@ Ali has been integral in the development and delivery of data-driven solutions i
 	- NLP
 	- Classification
 	- Stack: linux, git, gcp cloud run, python + pandas + sklearn + flask, gcp cloud storage + javascript
+
 
 
 ## Skills
