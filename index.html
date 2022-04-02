@@ -5,6 +5,7 @@
 <html>
 <head>
 	<!--link href="/path/to/print.css" media="print" rel="stylesheet" /-->
+	<link href="./index.css" rel="stylesheet"/>
 
 </head>
 
@@ -18,12 +19,10 @@
 <script type="module">
 	const defaultPage = "README.md"
 
-
 	const url = window.location.href
 	const [first, second] = url.split('?')
 	const text = await fetch(second || defaultPage)
 		.then(r => r.text())
 	document.body.innerHTML = marked.parse(text)
-
 
 </script>

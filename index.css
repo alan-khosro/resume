@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+body {
+	font-family: 'Delius', 'Sans Serif';
+}
+
+h1 > em {
+	font-size: 1rem;
+}
+
+img[alt=profile] {
+	float: left;
+	width: 25%;
+	margin-right: 1em;
+}
+
+
+h1, h2, h3 {
+	break-after: avoid;
+	clear: both;
+}
+
+table, figure, ul, ol {
+	break-inside: avoid;
+	break-before: avoid;
+}
+
+@page {
+	size: A4 landscape;
+	margin: 1rem;
+}
+
+@media print {
+	body {
+		zoom: .85;
+		column-count: 2;		
+		column-gap: 1rem;
+	}
+	hr {
+		break-after: page;
+		border: 0;
+	}
+
+}
+

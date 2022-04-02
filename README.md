@@ -2,20 +2,22 @@
 
 # Ali Khosro *Data Science Manager and Cloud Solution Architect*
 
-
-
 ![profile](./resume/profile2.jpg)
-Ali has been integral in the development and delivery of data-driven solutions in the software, financial, and telecommunication industry. He is proficient in Cloud Solution Architecture, Data Science, Machine Learning Applications, MLOps, Data Engineering, and Web Development. Ali enjoys helping clients to deploy cloud solutions and to redesign their data management systems. He has designed and developed end to end transactional and analytical solutions on major cloud platforms.
-- [view](?README.md)
-- [present](resume/one-pager.pdf)
-<br>
+*Ali has been integral in the development and delivery of data-driven solutions in the software, financial, and telecommunication industry. He is proficient in Cloud Solution Architecture, Data Science, Machine Learning Applications, MLOps, Data Engineering, and Web Development. Ali enjoys helping clients to deploy cloud solutions and to redesign their data management systems. He has designed and developed end to end transactional and analytical solutions on major cloud platforms.*
+
+[View](?README.md) |
+[Present](resume/one-pager.pdf) |
+<a href="" onclick="window.print();">Print</a> |
+EDIT???
+
 
 ## Highlights
 - GCP Cloud Architect Certification (exam scheduled)
 - Smart Ticket Routing using
 	- NLP
 	- Classification
-	- Stack: linux, git, gcp cloud run, python + pandas + sklearn + flask, gcp cloud storage + javascript
+	- Development Stack: linux + git + docker, python + pandas + sklearn + flask, html + css + js
+	- Deployment Stack: cloud storage, cloud source + cloud build + cloud run, cloud scheduler, stackdriver
 
 ## Skills
 
@@ -69,60 +71,4 @@ Ali has been integral in the development and delivery of data-driven solutions i
 ```mermaid
 
 ```
-
-<style>
-
-	h1 > em {
-		font-size: 1rem;
-	}
-
-	img[alt=profile] {
-		float: left;
-		width: 25%;
-		margin-right: 1em;
-	}
-
-	br {
-		clear: both;
-	}
-
-	hr {
-		break-after: page;
-		border: 0;
-	}
-
-
-h1, h2, h3, h4, h5 {
-	break-inside: avoid;
-	break-after: avoid;
-
-}
-
-h2::after {
-	content: "";
-	display: block;
-	height: 100px;
-	margin-bottom: -100px;
-}
-
-table, figure, ul, ol {
-	break-inside: avoid;
-}
-
-@page {
-	size: A4 landscape;
-	margin: 2em;
-}
-
-@media print {
-	body {
-		zoom: 85%;
-		column-count: 2;		
-		column-gap: 2em;
-	}
-
-}
-
-
-</style>
 
